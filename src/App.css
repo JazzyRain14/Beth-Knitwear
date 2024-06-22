@@ -1,0 +1,97 @@
+.landingSec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.knittedMat {
+    background: url(/src/assets/Image/TransparentPink.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.Logo {
+    flex: 1;
+    padding: 8px 0;
+}
+
+.Logo img {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    float: left;
+    width: fit-content;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLinks a {
+    margin: 0 30px;
+    color: #004E48;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.openedNavLinks {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: fit-content;
+    max-width: 60%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    background-color: #FFE9DE;
+    /* transition: all 5s ease-in-out; */
+}
+
+.openedNavLinks a {
+    padding: 10px 20px;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.navLinks a:hover {
+    border-bottom: 2px solid;
+    color: #CF560C;
+}
+
+.openedNavLinks a:hover {
+    color: #CF560C;
+    /* border-bottom: 2px solid; */
+
+}
+
+.navBurger {
+    display: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #004E48;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 998px) {
+    .navLinks {
+        display: none !important;
+    }
+
+    .navBurger {
+        display: block;
+
+    }
+}
