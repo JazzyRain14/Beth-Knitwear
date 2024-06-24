@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'BethGreen': '#074e48',
+        'BethGold': '#CC3119'
+      }
+    },
   },
   plugins: [],
 }

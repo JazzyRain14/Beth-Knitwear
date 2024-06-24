@@ -4,14 +4,6 @@
     align-items: center;
 }
 
-.knittedMat {
-    background: url(/src/assets/Image/TransparentPink.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    object-fit: contain;
-    background-size: contain;
-}
-
 .Logo {
     flex: 1;
     padding: 8px 0;

@@ -27,7 +27,7 @@ const Section1 = () => {
                 <div>
                     <img src={KnitBowl} alt="" width={600} />
                 </div>
-                <div className=' text-[#CC3119] flex-1'>
+                <div className=' text-BethGold flex-1'>
                     <h1 className='text-[100px] dancing-script  ml-6 relative right-20'>Beth</h1>
                     <h1 className='text-[100px] -translate-y-10 dancing-script '>Knittwear</h1>
                     <div className='flex flex-col gap-6'>
@@ -36,7 +36,7 @@ const Section1 = () => {
                         </small>
                         <div className='p-1 flex bg-white rounded-full overflow-hidden'>
                             <input type="text" className='w-full' />
-                            <button className='bg-[#074E48] text-white px-4 py-2 rounded-full '>Search</button>
+                            <button className='bg-BethGreen text-white px-4 py-2 rounded-full '>Search</button>
                         </div>
                     </div>
                 </div>
